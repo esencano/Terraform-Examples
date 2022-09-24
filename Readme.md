@@ -16,5 +16,5 @@ terraform apply --var token=your_linode_token
  + Node Example
 ```
 terraform init
-terraform apply --var token=your_linode_token --root_pass=root_user_password_for_node
+terraform apply --var token=your_linode_token --var root_pass=root_user_password_for_node
 ```
