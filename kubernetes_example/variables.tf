@@ -3,12 +3,6 @@ variable "token" {
   description = "Linode token"
 }
 
-variable "root_pass" {
-  type        = string
-  description = "Root user pass for node"
-  default     = "test1234"
-}
-
 variable "pools" {
   description = "The Node Pool specifications for the Kubernetes cluster."
   type = list(object({
